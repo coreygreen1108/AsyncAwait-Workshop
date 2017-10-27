@@ -1,16 +1,21 @@
 {
-  "name": "AsyncAwait",
+  "name": "express-sequelize",
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "body-parser": "^1.18.2",
     "express": "^4.15.5",
-    "sequelize": "^4.11.1"
+    "nunjucks": "^3.0.1",
+    "pg": "6.4.1",
+    "sequelize": "^4.11.1",
+    "volleyball": "^1.4.1"
   }
 }
